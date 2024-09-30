@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box{
+        height:380px ;
+        width:380px ;
+        background-color: skyblue;
+        overflow: hidden;
+      }
+      .box img{
+        height: 100%;
+        width: 100%;
+        object-fit:contain;
+        transition: all ease 1s;
+      }
+      .box:hover img{
+        scale:1.2;
+      }
+      .img{
+        /* box-shadow: 10px 10px 10px black; */ 
+        height: 250px;
+        width: 250px;
+        filter:drop-shadow( 10px 10px 10px black);
+        border-radius: 60%;
+      }
+      .gojo{
+        width: 200px;
+      }
+      .gojo-b{
+        width: 200px;
+        border-radius: 5px;
+      }
+      .gojo-r{
+      height: 150px;
+      width: 150px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 70%;
+      }
+      .gojo-ro{
+      height: 150px;
+      width: 150px;
+      object-fit: cover;
+      object-position: center;
+      border: 1px solid black;
+      border-radius: 70%;
+      background: linear-gradient(pink,orange,red,skyblue,green);
+      padding: 10px;
+      }
+      .d1{
+        background-color: black;
+        width:300px;
+        height:100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .d2{
+        width:280px;
+        height: 40px;
+        background-color: white;
+       display: flex;
+       justify-content: start;
+       align-items: center;
+      }
+      .Ns{
+        margin-left: 7px;
+        width:200px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+      .d1-2{
+        background-color: black;
+        width:500px;
+        height:100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .d2-2{
+        width:480px;
+        height: 50px;
+        background-color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .Ns2{
+        margin-left: 7px;
+        width:450px;
+        height: 34px;
+        border-radius: 25px;
+        border: none;  
+        padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+       /* border: 2px solid rgb(20 20 20) ; */
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+      }
+      .ED1{
+        background-color: black;
+        width:500px;
+        height:300px;
+        display: flex;
+        align-items: center;
+      }
+      .ED2{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        width:480px;
+        height: 200px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+      }
+      .ns3{
+        color: gray;
+        font-size: small;
+        line-height: 25px;
+      }
+      .Ns3{
+        width: 298px;
+        border-radius: 5px;
+        border: 1.6px solid black ;
+        margin-bottom: 0cap;
+      }
+      .pre{
+        width: 446px;
+        font-size: small;
+        color: gray;
+      }
+      .Aj{
+        border-radius: 30px;
+        width: 307px;
+        height: 40px;
+        background-color: rgb(6, 84, 174);
+        color: white;
+        cursor: pointer;
+      }
+      .td1{
+        background-color: black;
+        width:500px;
+        height:200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .td2{
+        width:480px;
+        height: 100px;
+        background-color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-around;
+      }
+      span{
+        display: flex;
+        justify-content: center;
+      }
+      .timg{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+        background: linear-gradient(red,rgb(86, 162, 238),rgb(231, 98, 120),rgb(98, 232, 165),rgb(236, 150, 89));
+        padding: 4px;  
+      }
+      .ts{
+        color: gray;
+      }
+      .tb{
+        height: 30px;
+        width: 60px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(81, 163, 249);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"> 
+      <img src="./download_14_1bc7eab2-e547-45fb-8938-e38d9abedfba.webp"alt=""/>
+    </div>
+    <div class="box1">
+        <img class="img" src="./200px-Itachi2.jpg" alt="">
+    </div>
+    <hr>
+    <img class="gojo" src="./satoru_gojo__jujutsu_kaise__anime__drawing_anime_by_vaskezjr_dfivf2q-fullview.jpg" alt="">
+    <hr>
+    <img class="gojo-b" src="./satoru_gojo__jujutsu_kaise__anime__drawing_anime_by_vaskezjr_dfivf2q-fullview.jpg" alt="" srcset="">
+   <hr>
+   <img class="gojo-r" src="./satoru_gojo__jujutsu_kaise__anime__drawing_anime_by_vaskezjr_dfivf2q-fullview.jpg" alt="">
+   <img class="gojo-ro" src="./satoru_gojo__jujutsu_kaise__anime__drawing_anime_by_vaskezjr_dfivf2q-fullview.jpg" alt="">
+   <hr>
+   <br>
+   <br>
+   <div class="d1"> 
+    <div class="d2">
+     <input class="Ns" placeholder="search" type="search"> 
+    </div>
+  </div>
+  <hr>
+  <div class="d1-2">
+    <div class="d2-2">
+      <input class="Ns2" placeholder="   search Google or type a URL" type="search">
+    </div>
+  </div>
+  <hr>
+  <div class="ED1"> 
+    <div class="ED2">
+      <label class="ns3" for="Email">Email</label>
+      <input class="Ns3" type="email">
+      <p class="pre">By clicking Agree &amp; Jion, You agree to the Privacy policy.</p>
+      <button class="Aj">
+        Agree &amp; join
+      </button>
+    </div>
+  </div>
+  <hr>
+  <div class="td1">
+    <div class="td2">
+      <span>
+      <img class="timg" src="./satoru_gojo__jujutsu_kaise__anime__drawing_anime_by_vaskezjr_dfivf2q-fullview.jpg" alt=""> 
+      <p class="ts" >What's happening&#63;</p>
+    </span>
+      <button class="tb" > Tweet </button>
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-practice</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 200px 75px;
+        }
+        .pink{
+            background-color: pink;
+        }
+        .skyblue{
+            background-color: skyblue;
+        }
+        .col-grid{
+            display: grid;
+            grid-template-columns: 50px 2fr 75px;
+        }
+        .col1{
+            background-color: skyblue;   
+        }
+        .col2{
+            background-color: pink;
+        }
+        .col3{
+            background-color: skyblue;   
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 5px;
+        }
+        .gc1,.gc3,.gc2,.gc4{
+            background-color: pink;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="grid" >
+    <div class="pink">200px</div>
+    <div class="skyblue">75px</div>
+</div>
+<hr>
+<div class="col-grid">
+    <div class="col1">col1</div>
+    <div class="col2">col2</div>
+    <div class="col3">col3</div>
+</div>
+<hr>
+<div class="grid2">
+    <div class="gc1">col1</div>
+    <div class="gc2">col2</div>
+    <div class="gc3">col3</div>
+    <div class="gc4">col4</div>
+    <div class="gc1">col1</div>
+    <div class="gc2">col2</div>
+    <div class="gc3">col3</div>
+    <div class="gc4">col4</div>
+</div>
+<hr>
+
+</body>
+</html>

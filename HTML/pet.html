@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .frddiv {
+        display: grid;
+        grid-template-columns: 20px 80px;
+        column-gap: 5px;
+        /* background-color: aqua; */
+      }
+      .frd-img {
+        align-self: center;
+      }
+      .f-img {
+        width: 100%;
+        border-radius: 50%;
+      }
+      .txt {
+        font-size: x-small;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(96 96 96);
+      }
+      .p {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .profile-txt {
+        padding: 5px;
+        display: grid;
+        grid-template-rows: 30px 30px 30px;
+        /* background-color: red; */
+      }
+      .name {
+        /* background-color: blue; */
+      }
+      .button {
+        border: none;
+        border-radius: 4px;
+        font-size: x-small;
+        background-color: rgb(4, 121, 246);
+        color: white;
+        width: 70px;
+        height: 25px;
+        cursor: pointer;
+      }
+      .pet {
+        /* border: 1px solid black; */
+        box-shadow: 0px 5px 7px rgb(83, 82, 82);
+        display: grid;
+        grid-template-columns: 1fr;
+        /* background-color: aqua; */
+        width: 135px;
+        height:150px:
+    }
+      .pet-img{
+        width: 135px;
+        height: 135px;
+      }
+      .profle-img{
+        object-fit: cover;
+        width: 135px;
+        height: 155px;
+      }
+      .main{
+        display: grid;
+        grid-template-columns: 200px 200px auto ;
+        box-shadow: 0px 5px 7px rgb(83, 82, 82);
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+    <div class="pet">
+      <div class="pet-img">
+        <img class="profle-img" src="./download.jfif" alt="" />
+      </div>
+     <div class="profile-txt">
+        <div class="name"><p>Oliver</p></div>
+        <div class="frddiv">
+          <div class="frd-img">
+            <img
+              class="f-img"
+              src="./1577165091dc4e97b7bb4c68d5cca595.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="frd-txt"><p class="txt">2 mutual friends</p></div>
+        </div>
+        <div class="buttondiv"><button class="button">Add Friend</button></div>
+      </div>
+    </div>
+
+    <div class="pet">
+        <div class="pet-img">
+          <img class="profle-img" src="./download.jfif" alt="" />
+        </div>
+       <div class="profile-txt">
+          <div class="name"><p>Oliver</p></div>
+          <div class="frddiv">
+            <div class="frd-img">
+              <img
+                class="f-img"
+                src="./1577165091dc4e97b7bb4c68d5cca595.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="frd-txt"><p class="txt">2 mutual friends</p></div>
+          </div>
+          <div class="buttondiv"><button class="button">Add Friend</button></div>
+        </div>
+      </div>
+
+      <div class="pet">
+        <div class="pet-img">
+          <img class="profle-img" src="./download.jfif" alt="" />
+        </div>
+       <div class="profile-txt">
+          <div class="name"><p>Oliver</p></div>
+          <div class="frddiv">
+            <div class="frd-img">
+              <img
+                class="f-img"
+                src="./1577165091dc4e97b7bb4c68d5cca595.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="frd-txt"><p class="txt">2 mutual friends</p></div>
+          </div>
+          <div class="buttondiv"><button class="button">Add Friend</button></div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

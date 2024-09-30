@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* in this section encldes css basics,hover,active
+       ,transition,shadow,chorme devtools & css box model */
+      .s_button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 3px;
+        margin-right: 8px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      .s_button:hover {
+        opacity: 0.7;
+      }
+      .s_button:active {
+        opacity: 0.3;
+      }
+      .j_button {
+        background-color: white;
+        color: rgb(41, 118, 211);
+        border-style: solid;
+        border-color: rgb(41, 118, 211);
+        border-width: 2px;
+        height: 36px;
+        width: 62px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: color 2s, background-color 2s;
+      }
+      .j_button:hover {
+        background-color: rgb(41, 118, 211);
+        color: white;
+      }
+      .j_button:active {
+        opacity: 0.3;
+      }
+      .t_button {
+        background-color: rgb(49, 162, 232);
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        margin-left: 8px;
+        cursor: pointer;
+      }
+      .t_button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+      .r-button {
+        border: none;
+        background-color: black;
+        color: white;
+        height: 33px;
+        width: 104px;
+        cursor: pointer;
+        transition: opacity 0.19s;
+      }
+      .r-button:hover {
+        opacity: 0.8;
+      }
+      .a-button {
+        height: 36px;
+        width: 189px;
+        color: black;
+        border: none;
+        background-color: rgb(255, 216, 20);
+        cursor: pointer;
+        border-radius: 18px;
+        margin: 8px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+      }
+      .a-button:hover {
+        background-color: rgb(245, 205, 3);
+      }
+      .si-button {
+        border: none;
+        font-weight: bold;
+        font-size: medium;
+        border: none;
+        background-color: rgb(46, 164, 79);
+        color: white;
+        height: 33px;
+        width: 79px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+      }
+      .si-button:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+      .section {
+        background-color: black;
+        width: 260px;
+        height: 100px;
+        border: solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .d-box {
+        background-color: white;
+        height: 52px;
+        width: 225px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .gt-button {
+        background-color: rgb(121, 82, 179);
+        font-weight: bold;
+        font-size: small;
+        border: none;
+        border-radius: 3px;
+        height: 36px;
+        width: 100px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+      }
+      .gt-button:hover {
+        background-color: rgb(99, 60, 156);
+      }
+      .d-button {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        font-weight: bold;
+        font-size: small;
+        border: none;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(108, 117, 125);
+        height: 36px;
+        width: 100px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.2s, color 0.2s;
+      }
+      .d-button:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+      }
+      .Section {
+        background-color: black;
+        width: 480px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .d_box {
+        background-color: white;
+        height: 58px;
+        width: 390px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .ao-button {
+        color: white;
+        background-color: rgb(10, 102, 194);
+        font-weight: bold;
+        font-size: small;
+        height: 32px;
+        width: 300px;
+        border: none;
+        border-radius: 16px;
+        cursor: pointer;
+        transition: background-color 0.2s, color 0.2s;
+      }
+      .ao-button:hover {
+        color: rgba(255, 255, 255, 0.931);
+        background-color: rgb(2, 70, 138);
+      }
+      .s-button {
+        background-color: white;
+        color: rgb(10, 102, 194);
+        font-weight: bold;
+        font-size: small;
+        border-style: solid;
+        border-color: rgb(10, 102, 194);
+        height: 32px;
+        width: 60px;
+        border-radius: 16px;
+        margin-left: 15px;
+        cursor: pointer;
+      }
+      .s-button:hover {
+        background-color: rgb(226, 240, 254);
+        border-width: 2px;
+      }
+     
+    </style>
+  </head>
+ 
+  <body>
+    <!-- https://youtu.be/G3e-cpL7ofc?si=K9sf2j7xeODhvV3l -->
+    <hr />
+    <button class="s_button">SUBSCRIBE</button>
+    <button class="j_button">JOIN</button>
+    <button class="t_button">tweet</button>
+    <hr />
+    <button class="r-button">Request now</button>
+    <button class="a-button">Add to Cart</button>
+    <button class="si-button">Sign up</button>
+    <hr />
+    <section class="section">
+      <div class="d-box">
+        <button class="gt-button">Get started</button>
+        <button class="d-button">Download</button>
+      </div>
+    </section>
+    <br />
+    <hr />
+    <br />
+    <section class="Section">
+      <div class="d_box">
+        <button class="ao-button">Apply on company website</button>
+        <button class="s-button">Save</button>
+      </div>
+    </section>
+    
+  </body>
+</html>
